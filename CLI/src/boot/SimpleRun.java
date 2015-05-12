@@ -14,7 +14,6 @@ public class SimpleRun {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter writer = new PrintWriter(System.out);
 		CLI test = new CLI(reader, writer);
-		System.out.println("First test");
 		try {
 			test.start();
 		} catch (ClassNotFoundException e) {
